@@ -70,11 +70,11 @@ body aside #menu #text .tooltiptext {
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
-  
-    /* Position the tooltip */
     position: absolute;
     z-index: 1;
+    /* 🏂 */
 }
+
 
 body aside #menu #text:hover .tooltiptext {
     visibility: visible;
@@ -152,6 +152,14 @@ body #container .column .column-content .post{
     align-self: flex-end;
     margin: 1rem;
     padding: 1rem;
+    transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    box-shadow: 2px 4px 6px #444;
+    -moz-box-shadow: 2px 4px 6px #444;
+    -webkit-box-shadow: 2px 4px 6px #444;
  }
  
  
@@ -159,7 +167,20 @@ body #container .column .column-content .post{
    background-color: #b7f2de;
    width: 70%;
    align-self: flex-start;
+   transform: rotate(-2deg);
+   -moz-transform: rotate(-2deg);
+   -webkit-transform: rotate(-2deg);
+   -o-transform: rotate(-2deg);
+   -ms-transform: rotate(-2deg);
+   box-shadow: 2px 4px 6px #444;
+   -moz-box-shadow: 2px 4px 6px #444;
+   -webkit-box-shadow: 2px 4px 6px #444;
 }
+
+body #container .column .column-content .post:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+ }
 
 body #container .column .column-content .post-text{
    padding: 1rem;
