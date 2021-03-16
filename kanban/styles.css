@@ -140,6 +140,12 @@ body #container .column .column-title{
 
 }
 
+body #container .column .column-title h2{
+
+  text-align: center;
+
+}
+
 body #container .column .column-content{
    display: flex;
    flex-direction: column;
@@ -185,5 +191,3 @@ body #container .column .column-content .post:hover{
 body #container .column .column-content .post-text{
    padding: 1rem;
  }
-
-
